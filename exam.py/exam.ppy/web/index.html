@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<!-- 제목 엘리먼트 -->
+    <h1>제목</h1>
+
+    <!-- 내용 엘리먼트 -->
+    <p>내용</p>
+
+    <!-- 링크 이동 엘리먼트 -->
+    <a href="https://naver.com">네이버로 이동</a>
+
+    <!-- 부모 엘리먼트 -->
+    <div>
+        <!-- 자식 엘리먼트 -->
+        <h1 id="sub1" class="sub1">제목 1</h1>
+        <p>내용 1</p>
+
+        <h1 id="sub2" class="sub1 sub1_2">제목 2</h1>
+        <p>내용 2</p>
+    </div>
+    <!-- 
+    HTML
+    - 태그라는 것으로 구성
+    - 태그는 여는 태그, 닫는 태그 세트
+    - 여는 태그 : <태그이름>, 닫는 태그 : </태그이름)
+    - 예외적으로 혼자 쓰는 태그 존재
+    - 태그 세트 -> 엘리먼트
+    -->
+    <!-- 
+    선택자/검색 하는 법
+    태그(태그 이름으로 검색)
+    -이름 -> 동명이인 가능
+    class(.으로 검색)
+    -별명(여러명이 같은 별명을 가질 수 있음, 한 명이 여러 개의 별명을 가질 수 있음)
+    id(#)
+    -주민번호(절대로 한 html내에서 같은 id를 쓸 수 없음)
+    -->
+
+    <style>
+        h1 {
+            color: red;
+            font-size: 50px;
+        }
+
+        .sub1 {
+            color: blue;
+        }
+
+        #sub2 {
+            color: green;
+        }
+    </style>
+</body>
+</html>
+

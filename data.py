@@ -721,3 +721,4 @@ else:
     health_level = '양호'
 
 print('f\n[전체 건강 상태 평가] => {health_level}')
+
