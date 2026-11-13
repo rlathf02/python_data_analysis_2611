@@ -200,7 +200,6 @@ scores = np.array([[70, 80, 90],
 bonus = np.array([5, 10, 0])
 
 result = scores + bonus
-
 print(result)
 # [[75 90 90]
 #  [65 85 85]]
